@@ -7,12 +7,13 @@ const romanianMessages: TranslationMessages = {
             add: "Adăugă",
             back: "Înapoi",
             bulk_actions:
-                "1 articol selectat |||| %{smart_count} articole selectate",
+                "%{smart_count} articol selectat |||| %{smart_count} articole selectate",
             cancel: "Anulează",
             clear_input_value: "Șterge valoarea",
             clone: "Copiază",
             confirm: "Confirmă",
             create: "Crează",
+            create_item: 'Crează %{item}',
             delete: "Șterge",
             edit: "Editează",
             export: "Exportă",
@@ -30,6 +31,7 @@ const romanianMessages: TranslationMessages = {
             close: "Închide",
             open_menu: "Deschide meniu",
             close_menu: "Închide meniu",
+            update: 'Modifică',
         },
         boolean: {
             true: "Da",
