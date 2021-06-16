@@ -2,6 +2,21 @@
     "name": "@docprocess/ra-language-romanian",
     "version": "1.0.0",
     "description": "Romanian messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+    "author": "DocProcess",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "module": "esm/index.js",
+    "types": "esm/index.d.ts",
+    "keywords": [
+        "react",
+        "react-admin",
+        "admin-on-rest",
+        "translation"
+    ],
+    "bugs": {
+        "url": "https://github.com/doc-process/ra-language-romanian/issues"
+    },
+    "homepage": "https://github.com/doc-process/ra-language-romanian#readme",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/doc-process/ra-language-romanian.git"
@@ -12,9 +27,6 @@
         "esm",
         "src"
     ],
-    "main": "lib/index.js",
-    "module": "esm/index.js",
-    "types": "esm/index.d.ts",
     "scripts": {
         "build": "yarn run build-cjs && yarn run build-esm",
         "build-cjs": "rimraf ./lib && tsc",
@@ -25,18 +37,6 @@
         "ra-core": "^3.16.2",
         "typescript": "^4.3.2"
     },
-    "keywords": [
-        "react",
-        "react-admin",
-        "admin-on-rest",
-        "translation"
-    ],
-    "author": "Ioan Bucur / DocProcess",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/doc-process/ra-language-romanian/issues"
-    },
-    "homepage": "https://github.com/doc-process/ra-language-romanian#readme",
     "devDependencies": {
         "rimraf": "^3.0.2"
     }
