@@ -5,7 +5,13 @@ Romanian messages for [react-admin](https://github.com/marmelab/react-admin), th
 ## Installation
 
 ```sh
-npm install --save ra-language-romanian
+npm install --save @docprocess/ra-language-romanian
+```
+
+or
+
+```sh
+yarn add @docprocess/ra-language-romanian
 ```
 
 ## Usage
