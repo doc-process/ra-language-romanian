@@ -1,45 +1,43 @@
 {
-    "name": "ra-language-romanian",
-    "description": "Romanian translations for react-admin. A frontend Framework for building admin applications running in the browser on top of REST/GraphQL services, using ES6, React and Material Design",
-    "version": "1.0.2",
-    "author": "György Hunor-Árpád",
-    "bugs": {
-        "url": "https://github.com/gyhaLabs/ra-language-romanian/issues"
-    },
-    "homepage": "https://github.com/gyhaLabs/ra-language-romanian#readme",
-    "keywords": [
-        "admin-on-rest",
-        "i18n",
-        "react",
-        "react-admin",
-        "translation"
-    ],
-    "license": "MIT",
+    "name": "@docprocess/ra-language-romanian",
+    "version": "1.0.0",
+    "description": "Romanian messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/gyhaLabs/ra-language-romanian.git"
+        "url": "git+https://github.com/doc-process/ra-language-romanian.git"
     },
     "files": [
         "*.md",
         "lib",
         "esm",
-        "src",
-        "tsconfig.json"
+        "src"
     ],
     "main": "lib/index.js",
     "module": "esm/index.js",
     "types": "esm/index.d.ts",
     "scripts": {
-        "build": "npm run build-cjs && npm run build-esm",
+        "build": "yarn run build-cjs && yarn run build-esm",
         "build-cjs": "rimraf ./lib && tsc",
         "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
         "watch": "tsc --outDir esm --module es2015 --watch"
     },
     "dependencies": {
-        "ra-core": "^3.12.2"
+        "ra-core": "^3.16.2",
+        "typescript": "^4.3.2"
     },
+    "keywords": [
+        "react",
+        "react-admin",
+        "admin-on-rest",
+        "translation"
+    ],
+    "author": "Ioan Bucur / DocProcess",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/doc-process/ra-language-romanian/issues"
+    },
+    "homepage": "https://github.com/doc-process/ra-language-romanian#readme",
     "devDependencies": {
-        "rimraf": "^3.0.2",
-        "typescript": "^3.9.7"
+        "rimraf": "^3.0.2"
     }
 }
